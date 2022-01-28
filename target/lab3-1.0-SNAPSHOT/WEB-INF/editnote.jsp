@@ -15,10 +15,12 @@
         <h1>Edit Note</h1>
         
         <form action="note" method="post">
-            <input type="text" name="title" placeholder="Title">
-            <input type="text" name="contents" placeholder="Contents">
+            <label for="title">Title:</label>
+            <input type="text" name="title" placeholder="This is the Title">
+            <br>
+            <input type="text" name="contents" placeholder="Contents go here">
             
-            <button type="submit">Submit</button>
+            <button type="submit">Save</button>
         </form>
         
         
