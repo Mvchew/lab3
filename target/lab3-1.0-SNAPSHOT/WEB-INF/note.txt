@@ -1,2 +1,2 @@
-Cool
-Guy
+This is the title
+Contents go here
