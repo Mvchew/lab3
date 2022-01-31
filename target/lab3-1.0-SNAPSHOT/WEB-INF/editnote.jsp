@@ -18,8 +18,9 @@
             <label for="title">Title:</label>
             <input type="text" name="title" placeholder="This is the Title">
             <br>
+            <label for="contents">Contents:</label>
             <input type="text" name="contents" placeholder="Contents go here">
-            
+            <br>
             <button type="submit">Save</button>
         </form>
         
