@@ -7,5 +7,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css
     Author     : Melvin Chew
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+body{
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: large;
+}
 
-
+#contentsInput {
+    height: 120px;
+    width: 200px;
+}
