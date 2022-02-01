@@ -9,7 +9,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <link rel="stylesheet" href="/lab3/CSS/editStyling.css">
+        <title>Edit Page</title>
     </head>
     <body>
         <h1>Edit Note</h1>
@@ -19,7 +20,7 @@
             <input type="text" name="title" placeholder="This is the Title">
             <br>
             <label for="contents">Contents:</label>
-            <input type="text" name="contents" placeholder="Contents go here">
+            <textarea type="text" id="contentsInput" name="contents" placeholder="Contents go here">Contents go here</textarea>
             <br>
             <button type="submit">Save</button>
         </form>
